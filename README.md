@@ -1,0 +1,1 @@
+This example demonstrates a subtle issue in Perl when working with hashes. The `exists` function only checks for the presence of a key, not whether the key has a defined value.  Accessing a key that exists but doesn't have an assigned value results in `undef`, which can lead to unexpected behavior if not properly handled.
